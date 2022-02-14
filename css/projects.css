@@ -8,7 +8,7 @@
 }
 
 .contanter-resume{
-    height: 110vh;
+    height: 160vh;
 }
 
 .box-1{
@@ -21,22 +21,22 @@
 }
 
 .box-1 .left{
-    padding: 3rem 3rem;
+    padding: 2rem 1rem;
     background-color: white;
-    width: 60%;
+    width: 40%;
     height: 100%;
 }
 
 .box-1 .right{
     /* padding: 7rem 3rem 2rem 0rem; */
     background-color: white;
-    width: 40%;
+    width: 60%;
     height: 100%;
     font-size: 1rem;
 }
 
 .pro-font-7{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin-top: 1rem;
 }
 

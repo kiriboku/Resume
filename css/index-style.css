@@ -7,7 +7,7 @@
 .header{
     width: 100%;
     height: 10vh;
-    background-image: url(/image/image.png);
+    background-color: #F4ECE6;
     background-position: center;
     background-size: cover;
 }
@@ -127,9 +127,9 @@ nav ul li{
 
 .career{
     font-size: 1.3rem;
-    letter-spacing: 7px;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+    letter-spacing: 6px;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
     font-family: sans-serif;
     color: black;
 }
