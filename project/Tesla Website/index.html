@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tesla Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header" id="header">
+        <nav>
+            <img src="./images/logo.png" class="logo">
+            <ul>
+                <li><a href="#" id="models">Model S</a></li>
+                <li><a href="#" id="model3">Model 3</a></li>
+                <li><a href="#" id="modelx">Model X</a></li>
+                <li><a href="#" id="modely">Model Y</a></li>
+            </ul>
+            <a href="" class="btn">Reserve Now</a>
+        </nav>
+
+        <div class="info">
+            <div>
+                <h2>1.9 s</h2>
+                <p>60 mph</p>
+            </div>
+            <div>
+                <h2>200 mph</h2>
+                <p>Top Speed</p>
+            </div>
+            <div>
+                <h2>396 mi</h2>
+                <p>Max Range</p>
+            </div>
+            <div class="line">
+
+            </div>
+            <div>
+                <h2 id="model">Model S</h2>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const header = document.getElementById('header')
+        const models = document.getElementById('models')
+        const model3 = document.getElementById('model3')
+        const modelx = document.getElementById('modelx')
+        const modely = document.getElementById('modely')
+        const model = document.getElementById('model')
+
+        models.onclick = () => {
+            header.style.backgroundImage = 'url(./images/image-1.png)'
+            model.innerHTML="Model S"
+        }
+
+        model3.onclick = () => {
+            header.style.backgroundImage = 'url(./images/image-2.png)'
+            model.innerHTML="Model 3"
+        }
+
+        modelx.onclick = () => {
+            header.style.backgroundImage = 'url(./images/image-3.png)'
+            model.innerHTML="Model X"
+        }
+
+        modely.onclick = () => {
+            header.style.backgroundImage = 'url(./images/image-4.png)'
+            model.innerHTML="Model Y"
+        }
+
+    </script>
+
+</body>
+
+</html>
